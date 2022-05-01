@@ -86,7 +86,7 @@ void stringOperation(char string1[], char string2[], int str1size, int str2size)
     // adding final strings
     for (i = 0; i <= str1size; i++)
     {
-        outputString_1[i] = outputString_1[i];
+        outputString[i] = outputString_1[i];
     }
 
     for (i = 0; outputString[i] != '\0'; i++) // calculating the length of output string
